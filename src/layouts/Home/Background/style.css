@@ -1,0 +1,25 @@
+.backgroundIndex {
+  color: #fff;
+  margin: 0;
+  border: 0;
+  height: 100%;
+  display: flex!important;
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('../../../assets/img/bgFete.jpg');
+}
+
+.backgroundIndex::before{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  content: "";
+  z-index: 2;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.65);
+}

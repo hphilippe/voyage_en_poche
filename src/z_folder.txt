@@ -1,0 +1,8 @@
+app : core de l'application
+assets : img, css global
+components : composant (table, cards, etc)
+constants : constants de l'application
+layouts : vue global (price, auth, dash, register)
+routes : liste des routes 
+viewsDashboard : vue du dashboard
+index.js : Base de l'application

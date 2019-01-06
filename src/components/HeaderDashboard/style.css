@@ -1,0 +1,6 @@
+.ant-menu-item-selected{
+  background-color: #1890ff;
+}
+.ant-menu-item-selected a{
+  color: white;
+}

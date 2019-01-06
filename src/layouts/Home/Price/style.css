@@ -1,0 +1,10 @@
+.gutter-price .ant-row > div {
+  background: transparent;
+  border: 0;
+}
+.gutter-box {
+  padding: 5px 0;
+}
+.price-body {
+  margin: 0 25px;
+}

@@ -1,0 +1,12 @@
+/** Override Ant design global **/
+.gutter-box {
+  padding: 0 2px;
+}
+
+#root .ant-card-head{
+  border-bottom: none;
+}
+
+#root .ant-card{
+  margin-top: 5px;
+}

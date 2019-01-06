@@ -1,0 +1,66 @@
+.dashboard_banner{
+  color: #e8e8e8;
+  transition: 1s;
+}
+.dashboard_banner a{
+  color: #e8e8e8;
+  text-decoration: none;
+}
+.dashboard_banner a:hover{
+  color: #69c0ff;
+  transition: 0.2s;
+}
+.dashboard_banner_layer{
+  background: #00000061;
+  width: 100%;
+  height: 100%;
+  padding: 15px 25px;
+  position: relative;
+}
+.dashboard_banner_right_side{
+  font-size: 14px;
+  text-align: right;
+  min-height: 275px;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+.dashboard_banner_right_side ul{
+  list-style-type: none;
+}
+.dashboard_banner_right_side li{
+
+}
+.dashboard_banner_right_side hr{
+  border: solid 1px white;
+  width: 150px;
+  margin: 0;
+  display: inline-block;
+}
+.dashboard_banner_right_side_title{
+  
+}
+.dashboard_banner_top_left{
+  top: 0;
+  float: left;
+  position: absolute;
+}
+.dashboard_banner_top_left h1{
+  
+}
+.dashboard_banner_top_left p{
+  
+}
+.dashboard_banner_bottom_left{
+  bottom: 0;
+  float: left;
+  position: absolute;
+  margin-bottom: 15px;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+.dashboard_banner_bottom_center{
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 8px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+}
