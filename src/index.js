@@ -21,8 +21,6 @@ import './assets/style.css';
 
 // use .env
 require('dotenv').config();
-console.log(process.env);
-
 
 const GRAPHCMS_API = process.env.REACT_APP_GRAPHCMS_URL;
 const GRAPHCMS_AUTH = process.env.REACT_APP_GRAPHCMS_ACCESS_TOKEN;
