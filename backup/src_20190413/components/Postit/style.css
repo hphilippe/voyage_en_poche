@@ -1,0 +1,11 @@
+.Postit-container-icon{
+  margin-top: 10px;
+}
+
+.Postit-container-icon-edit{
+  float: left;
+}
+
+.Postit-container-icon-delete{
+  float: right;
+}

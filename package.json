@@ -11,15 +11,19 @@
     "apollo-link-error": "^1.1.1",
     "apollo-link-http": "^1.5.5",
     "dotenv": "^6.2.0",
+    "google-map-react": "^1.1.2",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
     "history": "^4.7.2",
+    "html-react-parser": "^0.6.1",
+    "html-to-react": "^1.3.4",
     "moment": "^2.23.0",
     "react": "^16.6.3",
     "react-apollo": "^2.2.4",
     "react-dom": "^16.6.3",
     "react-microlink": "^2.3.0",
     "react-moment": "^0.8.4",
+    "react-quill": "^1.3.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
     "recompose": "^0.30.0",
@@ -29,7 +33,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "greedstart": "cross-env-shell REACT_APP_GRAPHCMS_ACCESS_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXJzaW9uIjoxLCJ0b2tlbklkIjoiYzIzNmI1MTktMGQwOC00YmY0LWIyNjctZGI4MmU2MTkxNmVhIn0.CT2qlwKSkLBM4q_9KsTY8eINGJxOZDX_JPXzAjDAUI4 REACT_APP_GRAPHCMS_URL=https://api-euwest.graphcms.com/v1/cjozfhck75xjx01gl3efnx2r7/master NAME=Joe npm run start",
+    "greedbuild": "cross-env-shell REACT_APP_GRAPHCMS_ACCESS_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXJzaW9uIjoxLCJ0b2tlbklkIjoiYzIzNmI1MTktMGQwOC00YmY0LWIyNjctZGI4MmU2MTkxNmVhIn0.CT2qlwKSkLBM4q_9KsTY8eINGJxOZDX_JPXzAjDAUI4 REACT_APP_GRAPHCMS_URL=https://api-euwest.graphcms.com/v1/cjozfhck75xjx01gl3efnx2r7/master NAME=Joe npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,5 +45,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
 }

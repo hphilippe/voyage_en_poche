@@ -1,0 +1,30 @@
+/*List style in calendar*/
+.events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.events .ant-badge-status {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+.notes-month {
+  text-align: center;
+  font-size: 28px;
+}
+.notes-month section {
+  font-size: 28px;
+}
+/*header calendar*/
+/*.ant-radio-button-wrapper:first-child {
+  border-radius: 4px;
+}
+.ant-radio-button-wrapper:last-child {
+  display: none;
+}*/
+.Scheduler-container .ant-radio-group{
+  display: none;
+}

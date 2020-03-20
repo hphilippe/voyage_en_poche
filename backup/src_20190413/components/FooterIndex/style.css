@@ -1,0 +1,10 @@
+.footerIndex {
+  width: 100%;
+  z-index: 1029;
+  position: absolute;
+  padding-bottom: 10px;
+  padding: 0 25px;
+  font-size: 14px;
+  margin: auto;
+  bottom: 0;
+}

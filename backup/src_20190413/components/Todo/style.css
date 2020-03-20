@@ -1,0 +1,7 @@
+.TodoItem-hide{
+  display: none;
+}
+
+.todo-item .ant-list-item-action{
+  margin-bottom: 0;
+}
